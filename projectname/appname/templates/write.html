@@ -1,0 +1,13 @@
+<h1>글쓰기 페이지 입니다.</h1>
+
+<div class="container">
+    <form action="{% url 'writeSend' %}">
+        제목 : <input type="text" name="boardTitle">
+        <br>
+        <br>
+        본문 : <br><textarea cols="40" rows="20" name="boardBody"></textarea>
+        <br>
+        <input type="submit" value="글쓰기">
+
+    </form>
+</div>
